@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.container-fluid{
+    background-color: #D4D6D7;
+}
+.navbar-brand{
+    height: 200px;
+}
+
+.nav-link{
+    color: black;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: darkolivegreen;
+    list-style-type: none;
+}
+
+main{
+    background-color: #2B2D42;
+}
+h1{
+    color: #D4D6D7;
+    font-size: medium;
+}
+
+.posters
+{
+    height: 250px;
+    width: 210px;
+}
+
+.flex-index{
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label{
+    color: white;
+}
+
+footer {
+    background-color: #8D99AE;
+    background-size: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.copyright {
+    color: #D4D6D7;
+    font-style: italic;
+}
