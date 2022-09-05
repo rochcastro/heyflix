@@ -29,7 +29,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Generos
+                            Géneros
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Acción</a></li>
@@ -38,7 +38,7 @@
                             <li><a class="dropdown-item" href="#">Comedia</a></li>
                             <li><a class="dropdown-item" href="#">Documental</a></li>
                             <li><a class="dropdown-item" href="#">Drama</a></li>
-                            <li><a class="dropdown-item" href="#">Fantasia</a></li>
+                            <li><a class="dropdown-item" href="#">Fantasía</a></li>
                             <li><a class="dropdown-item" href="#">Infantil</a></li>
                             <li><a class="dropdown-item" href="#">Romance</a></li>
                             <li><a class="dropdown-item" href="#">Terror</a></li>
@@ -46,13 +46,16 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./peliculas.html">Peliculas</a>
+                        <a class="nav-link" href="./peliculas.html">Películas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./series.html">Series</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ingresar.html">Ingresar</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -63,21 +66,34 @@
         </div>
     </nav>
     <main>
-        <h1>Contacto</h1>
         <div class="contacto">
-        <form action="#" method="get">
-            <input type="text" placeholder="Nombre" name="nombre" required>
-            <br>
-            <input type="text" placeholder="Email" name="email" required>
-            <br>
-            <textarea name="Comentario" cols="30" rows="10" placeholder="Comentario" required></textarea>
-            <br>
-            <label>Deseo recibir novedades por mail</label>
-            <input type="checkbox" name="acepta" value="si">
-            <br>
-            <input type="submit">
-        </form>
-    </div>
+            <form action="#" method="get">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tu@nombre.com"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Escribe tu comentario" required></textarea>
+                        <br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Deseo recibir novedades por mail.
+                            </label>
+                        </div>
+                        <br>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
     </main>
     <footer>
         <a href="https://www.facebook.com/" target="_blank">Facebook</a>
